@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute of engineering,ioe syllabus and note</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="image/logo1.png" width="60px">
+        </div>
+        <nav>
+            <div class="section3" id="navlinks" >
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="file:///D:/website/index.html">Home</a></li>
+                <li><a href="file:///D:/website/courses.html">Courses</a></li>
+
+                <li><a href="file:///D:/website/About.html">About Us</a></li>
+                <li><a href="file:///D:/website/blog.html">Blog</a></li>
+                <li><a href="#">Feedback</a></li>
+                
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        
+            <div class="nav1">
+        <img src="image/logo2.png" width="30px" >
+        </div>
+        </nav>
+    </div>
+    </div>
+   
+    <div class="row">
+        <div class="col-9">
+        <h1>Under-Graduation Courses</h1>
+        <p>click on specific to view syllabus<br>At the moment only mechanical syllabus available</p>
+        <div class="program">
+            <b>
+        <a href="file:///D:/website/mechanical.html">Mechanical Engineering</a>
+        <a href="">Aerospace Engineering</a>
+        <a href="">Agricultural Engineering</a>
+        <a href="">Automobile Engineering</a>
+        <a href="">Architectural Engineering</a>
+        <a href="">Geomatics Engineering</a>
+        <a href="">Industrial Engineering</a>
+        <a href="">Chemical Engineering</a>
+        <a href="">Civil Engineering</a>
+        <a href="">Computer Engineering </a>
+        <a href="">Electrical Engineering</a>
+        <a href="">Electronics and communication Engineering</a>
+            </b>
+        
+        </div>
+        </div>
+        <div class="col-2">
+            <img src="image/cour.png">
+        </div>
+    </div>
+    </div>
+
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.top='0';
+        }
+        function hidemenu(){
+            navlinks.style.top='-400px';
+        }
+    </script>
+</body>
+</html>
